@@ -1,6 +1,5 @@
 # Ragh-ragh-ragh-ragh's Sway dotfiles
 My config files for swaywm
-***
 
 ## About
 WM: [Sway](https://swaywm.org/)
@@ -16,8 +15,8 @@ Kitty Theme: [Dracula-kitty](https://draculatheme.com/kitty)
 Launcher: [kickoff](https://github.com/j0ru/kickoff)
 
 ## Where to put your files
-The config for swaywm is put in ~/.config/sway/
+Sway's config is placed in ~/.config/sway/
 
 kitty.conf is to be placed in ~/.config/kitty/
 
-Kickoff's config.toml is to be placed in ~/.config/kickoff/
+Kickoff's config.toml is placed in ~/.config/kickoff/
