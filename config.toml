@@ -1,5 +1,5 @@
 # Kickoff default config
-
+# To be placed in ~/.config/kickoff
 # Characters shown in front of the query.
 prompt = 'Search: '
 
