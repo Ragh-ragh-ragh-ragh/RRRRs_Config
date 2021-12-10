@@ -1,7 +1,7 @@
 # Kickoff default config
 # To be placed in ~/.config/kickoff
 # Characters shown in front of the query.
-prompt = 'Search: '
+prompt = 'Run: '
 
 # space between window border and the content in pixel
 padding = 100
