@@ -26,13 +26,13 @@ set $term kitty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu kickoff
+set $menu sirula
 # File Manager
 set $fileman nautilus
 # Browser
 set $browser firefox
 
-output "*" background "~/Pictures/wolf-tob-draculized.jpg" fill
+output "*" background "~/.config/sway/wolf-tob-draculized.jpg" fill
 
 default_border pixel 2
 # class                 border  bground text    indicator child_border
@@ -62,7 +62,7 @@ bar {
 }
 
 bindsym $mod+d exec $menu
-gaps inner 10
+gaps inner 5
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in @datadir@/backgrounds/sway/)
@@ -236,12 +236,15 @@ mode "resize" {
     bindsym Escape mode "default"
 }
 bindsym $mod+r mode "resize"
-bindsym $mod+Shift+g exec "flatpak run io.github.shiftey.Desktop"
 bindsym $mod+Shift+f exec $fileman
 bindsym $mod+Shift+b exec $browser
+bindsym $mod+Shift+p exec "grimshot save area"
+
 #
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
 
 include @sysconfdir@/sway/config.d/*
+bindsym $mod+Shift+r exec kickoff
+
